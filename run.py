@@ -149,7 +149,7 @@ def main() -> None:
         periods=periods, census=census, check=check, pit_census=pit_census,
         priced=priced, table=lottery.table(priced), found=found, took=took,
         gone=gone, seasons=SEASONS, figures=figures,
-        out_path=OUT / "report.html")
+        out_path=OUT / "report.pdf")
 
     say()
     say(f"report  {path}")

@@ -220,7 +220,7 @@ python run.py
 
 The 2023 season is cached in `data/season_2023.json`, so it runs
 offline and a second run costs nothing. Output goes to `out/`: six PNGs
-and a self-contained `report.html`.
+and a printable `report.pdf`.
 
 ```bash
 python -m pytest tests -q
@@ -244,7 +244,8 @@ the bugs above. No test compares against saved output.
 | `src/neutral.py` | finding slow periods and working out what caused them |
 | `src/lottery.py` | pricing a stop, who took one, and what was deleted |
 | `src/charts.py` | the six figures |
-| `src/report.py` | the self-contained HTML report |
+| `src/report.py` | the printable PDF report |
+| `src/paper.py` | page composition: A4 pages, tables, figure bands |
 | `run.py` | the pipeline, start to finish |
 
 ---
